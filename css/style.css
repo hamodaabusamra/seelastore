@@ -1,0 +1,119 @@
+body
+{
+    font-family: sans-serif;
+    padding: 10;
+    margin: 10;
+    background-color: #f4f4f4;
+    direction: rtl;
+}
+.container
+{
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+}     
+ul{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background: #353637;
+    color: floralwhite;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #32a0c2 5px solid;
+}
+
+header a
+{
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brand
+{
+    float: right;
+}
+header #brand
+{
+    margin: 0;
+    color: #2c81b9;
+}
+header nav
+{
+    float: left;
+    margin-top: 10px;
+}
+header .current a
+{
+    color: #eece1a;
+    font-weight: bold;
+}
+header a:hover
+{
+    color: #cccccc;
+    font-weight: bold;
+
+}
+#showcase
+{
+    min-height: 500pt;
+    background: url("../image/fr2.jpg") no-repeat;
+    background-size: cover;
+}
+#newsletter
+{
+    padding: 15px;
+    color: #ffffff;
+    background: #1f1c1c;
+}
+#boxes
+{
+    margin-top: 2ch;
+}
+#boxes .box
+{
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #32a0c2;
+    text-align: center;
+    font-weight: bol;
+    font-size: 25px;
+}
+@media(max-width:768px)
+    {  header #brand
+        header nav,
+        header nav li,
+        #newsletter h1,
+        #newsletter form,
+        footer 
+    }
+    header
+    {
+        padding-bottom: 20px;
+    }
+    #newsletter .button
+    {
+        display: block;
+        width: 100%;
+
+    }
+    #newsletter form input{"email"}
+    {
+        width: 100%;
+        margin-bottom: 5px:
+    }
